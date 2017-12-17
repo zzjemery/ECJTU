@@ -1,0 +1,161 @@
+body {
+  font-family: "微软雅黑";
+}
+i {
+  font-style: normal;
+}
+.icon-show {
+  visibility: hidden;
+}
+.cntoen {
+  position: absolute;
+  top: 16px;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+#accordion {
+  display: none;
+}
+.banner-mo {
+  display: none;
+}
+.tomargin {
+  margin-top: 55% ;
+}
+.s-nav {
+  background-color: #fff;
+  margin-bottom: 0;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+.s-nav #s-nav {
+  padding-top: 15px;
+}
+.s-nav #s-nav .mobile_li {
+  display: none;
+}
+.s-nav #s-nav li {
+  width: 94px;
+}
+.s-nav .container-fluid {
+  height: 69px;
+}
+.s-nav .navbar-header {
+  height: 69px;
+}
+.s-nav .navbar-brand {
+  padding: 0 15px;
+}
+.s-nav li {
+  width: 100px;
+}
+.s-nav li a {
+  text-align: center;
+  padding: 15px 20px;
+  transition: all 2s;
+}
+.s-nav li:nth-child(5) {
+  width: 112px;
+}
+.s-nav li:nth-child(6) {
+  width: 133px;
+}
+.s-nav .dropdown-menu {
+  min-width: 100px;
+}
+@media screen and (max-width: 768px) {
+  .tomargin {
+    margin-top: 70% !important;
+  }
+  .banner-mo {
+    display: block;
+  }
+  .banner-pc {
+    display: none;
+  }
+  #accordion {
+    display: block;
+    padding-bottom: 20%;
+  }
+  #collapseTwo .panel-body p {
+    padding-left: 25%;
+  }
+  #collapseTwo .panel-body p a {
+    text-decoration: none;
+    color: #333333;
+  }
+  i {
+    display: none;
+  }
+  .caret {
+    display: none;
+  }
+  .all {
+    overflow: hidden;
+  }
+  .dropdown-menu2 a {
+    color: #000;
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .icon-show {
+    margin-left: 8%;
+    visibility: visible;
+  }
+  .panel {
+    border: none;
+    border-style: none;
+    box-shadow: none;
+    border-bottom: 1px solid #E7E7E7;
+  }
+  .panel-default > .panel-heading {
+    background-color: #fff;
+  }
+  .panel-default > .panel-heading a {
+    text-decoration: none;
+  }
+  .panel-heading {
+    padding-left: 10%;
+  }
+  .nav-su {
+    display: none;
+  }
+  #accordion {
+    width: 60%;
+    position: relative;
+    left: -65%;
+    top: 1px;
+    background-color: #fff;
+  }
+  #li_core {
+    display: none;
+  }
+  .icon_q {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-right: 5%;
+  }
+  .contorl {
+    position: relative;
+    left: 0%;
+  }
+  .dropdown-menu {
+    display: none !important;
+  }
+  .mobile1 {
+    display: block !important;
+  }
+  .mobile1 li {
+    text-align: center;
+  }
+  .mobile1 a {
+    color: #000;
+    line-height: 40px;
+  }
+}

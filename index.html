@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="stylesheet" href="./public/css/jemery.css">
+</head>
+
+<body>
+    <div class="all">
+        <nav class="navbar navbar-default s-nav mobile" style="background-color:#fff;border-radius:0;z-index:10;">
+            <div class="container-fluid" style="height:69px;">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle nav-ss" style="border-color:#fff;margin-top: 18px;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color:red;"></span>
+                    <span class="icon-bar" style="background-color:red;"></span>
+                    <span class="icon-bar" style="background-color:red;"></span>
+                </button>
+                    <a class="navbar-brand" href="./index.html" style="padding:0 15px;">
+                        <img src="./public/img/logo.gif" alt="" class="logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class=" navbar-collapse navbar-right nav-su">
+                    <ul class="nav navbar-nav" id="s-nav" style="background-color:#fff;">
+                        <li><a href="./index.html" style="position:relative;"><span class="icon_q"></span><i>HOME</i><span class="cntoen"><span class="icon_q"></span>首&nbsp;&nbsp;&nbsp;&nbsp;页</span></a></li>
+                        <li id="li_core" class="dropdown" style="position:relative;height:50px;">
+                            <a href="javascript:;"><span class="icon_q"></span><i>CORE</i><span class="cntoen"><span class="icon_q"></span>核心业务</span><span class="caret"></span><span class=" icon-show">+</span></a>
+                            <ul id="menu-show" class="dropdown-menu" aria-labelledby="dropdownMen2" style="text-align:center;top:108%;">
+                                <li style="clear:both;"><a href="./public/core.html" style="padding:5px;">核心业务</a></li>
+                                <li style="clear:both;"><a href="./public/salechannel.html" style="padding:5px;">销售渠道</a></li>
+                                <li style="clear:both;"><a href="./public/partners.html" style="padding:5px;">合作伙伴</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./public/news.html"><span class="icon_q"></span><i>NEWS</i><span class="cntoen"><span class="icon_q"></span>新&nbsp;&nbsp;&nbsp;闻</span></a></li>
+                        <li><a href="./public/caselist.html"><span class="icon_q"></span><i>CASE</i><span class="cntoen"><span class="icon_q"></span>案&nbsp;&nbsp;&nbsp;例</span></a></li>
+                        <li style="width:117px;"><a href="./public/about.html"><span class="icon_q"></span><i>ABOUT US</i><span class="cntoen"><span class="icon_q"></span>关&nbsp;于&nbsp;我&nbsp;们</span></a></li>
+                        <li style="width:129px;"><a href="./public/contact.html" style="padding: 15px 17px;"><span class="icon_q"></span><i>CONTACT US</i><span class="cntoen"><span class="icon_q"></span>联&nbsp;系&nbsp;我&nbsp;们</span></a></li>
+                    </ul>
+                </div>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="top:13px;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="icon_q"></span>首<span style="visibility: hidden;">华东</span>页</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" style="display:none;">
+                            <div class="panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="icon_q"></span>核心业务</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <p><a href="./public/core.html">核心业务</a></p>
+                                <p><a href="./public/salechannel.html">销售渠道</a></p>
+                                <p><a href="./public/partners.html">合作伙伴</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree"><span class="icon_q"></span>新<span style="visibility: hidden;">交通</span>闻</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" style="display:none;">
+                            <div class="panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour"><span class="icon_q"></span>案<span style="visibility: hidden;">大学</span>例</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" style="display:none;">
+                            <div class="panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive"><span class="icon_q"></span>关于我们</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" style="display:none;">
+                            <div class="panel-body">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingSix">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix"><span class="icon_q"></span>联系我们</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix" style="display:none;">
+                            <div class="panel-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <nav class="pc">
+            <a href="./index.html" class="logoPic pc">
+                <img src="./public/img/redLogo.png">
+            </a>
+            <ul class="pc">
+                <li>
+                    <a href="./index.html">
+                        <span class="en">HOME</span>
+                        <span class="cn">首 页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span class="en">CORE</span>
+                        <span class="cn">核心业务</span>
+                    </a>
+                    <ul class="dropDown">
+                        <li><a href="./public/core.html">核心业务</a></li>
+                        <li><a href="./public/salechannel.html">销售渠道</a></li>
+                        <li><a href="./public/partners.html">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./public/news.html">
+                        <span class="en">NEWS</span>
+                        <span class="cn">新 闻</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./public/caselist.html">
+                        <span class="en">CASE</span>
+                        <span class="cn">案 例</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./public/about.html">
+                        <span class="en">ABOUT US</span>
+                        <span class="cn">关于我们</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./public/contact.html">
+                        <span class="en">CONTACT US</span>
+                        <span class="cn">联系我们</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contorl">
+            <div class="main mobile">
+                <div id="tab1">
+                    <img src="./public/img/m_screen1_bg.png" class="tab-bg">
+                    <div class="tab-text">
+                        <a href="#" class="h4"><strong>“ 蛙鱼社 ”</strong>衍生品</a>
+                        <p class="h5">专注致力于正版电影、动漫、游戏、明星等周</p>
+                        <p class="h5">边衍生品开发设计，生产和销售。投资孵化培育原创IP内容</p>
+                        <p class="h5">建设，基于粉丝经济帮助IP变现增加收入。</p>
+                    </div>
+                </div>
+                <div id="tab2">
+                    <img src="./public/img/m_screen2_bg.png" class="tab-bg">
+                    <div class="tab-text">
+                        <a href="#" class="h4"><strong>“ 正版 ”</strong></a>
+                        <p class="h5">/</p>
+                        <p class="h5">致力于正版IP内容周边开发合作</p>
+                        <p class="h5">从概念到剧本阶段开始深度合作，从而保证产品的针对性和整体性</p>
+                        <p class="h5">保证设计、制作、营销的统一性</p>
+                    </div>
+                </div>
+                <div id="tab3">
+                    <img src="./public/img/m_screen3_bg.png" class="tab-bg">
+                    <div class="tab-text">
+                        <a href="#" class="h4"><strong>“ 创意 ”</strong></a>
+                        <p class="h5">/</p>
+                        <p class="h5">拥有国内外行业顶级的设计师</p>
+                        <p class="h5">并与美国好莱坞、新西兰维塔公司建立长期的合作伙伴关系，利用</p>
+                        <p class="h5">最新的数字化技术，充分展现现代流行时尚艺术的魅力</p>
+                    </div>
+                </div>
+                <div id="tab4">
+                    <img src="./public/img/m_screen4_bg.png" class="tab-bg">
+                    <div class="tab-text">
+                        <a href="#" class="h4"><strong>“ 技术 ”</strong></a>
+                        <p class="h5">/</p>
+                        <p class="h5">拥有多项数字化模型成像核心专利技术</p>
+                        <p class="h5">为艺术创作插上放飞的翅膀</p>
+                    </div>
+                </div>
+                <div id="tab5">
+                    <img src="./public/img/m_screen5_bg.png" class="tab-bg">
+                    <div class="tab-text">
+                        <a href="#" class="h4"><strong>“ 营销 ”</strong></a>
+                        <p class="h5">/</p>
+                        <p class="h5">新零售经济模型，渠道覆盖东南亚和北美市场</p>
+                        <p class="h5">形成线上网点和线下专卖店互动营销</p>
+                    </div>
+                </div>
+                <div id="tab6">
+                    <a href="#">
+                        <p class="h4"><strong>核心业务</strong></p>
+                        <p class="h5">Our Business</p>
+                        <p><img src="./public/img/index_down.png"></p>
+                    </a>
+                    <div>
+                        <a href="#">
+                            <img src="./public/img/m_screen6_1.png">
+                            <img src="./public/img/screen6_no1.png">
+                        </a>
+                        <a href="#">
+                            <img src="./public/img/m_screen6_2.png">
+                            <img src="./public/img/screen6_no2.png">
+                        </a>
+                        <a href="#">
+                            <img src="./public/img/m_screen6_3.png">
+                            <img src="./public/img/screen6_no3.png">
+                        </a>
+                        <a href="#">
+                            <img src="./public/img/m_screen6_4.png">
+                            <img src="./public/img/screen6_no4.png">
+                        </a>
+                    </div>
+                </div>
+                <div id="tab7">
+                    <a href="#">
+                        <p class="h4"><strong>联系我们</strong></p>
+                        <p class="h5">Contact US</p>
+                    </a>
+                    <div>
+                        <h3 class="h5">北京中科亿达科技有限公司</h3>
+                        <p class="h6">邮编： 100000</p>
+                        <p class="h6">电话： 010-52868021</p>
+                        <p class="h6">手机： 13581810738</p>
+                        <p class="h6">邮箱： tao@vicuc.com</p>
+                        <p class="h6">地址： 北京市石景山区京原路19号景阳写字楼1206</p>
+                    </div>
+                    <p class="h6" style="color:#999">(©) 2017 mo004_2551 - 蛙鱼社衍生品</p>
+                </div>
+            </div>
+            <div class="main pc">
+                <ul class="screens">
+                    <li class="aboutUs">
+                        <img src="./public/img/bg1.png" class="bgPic">
+                        <div class="derivatives">
+                            <img src="./public/img/derivatives.png">
+                        </div>
+                        <span class="num">01 - 07</span>
+                        <div>
+                            <img src="./public/img/screen1_about.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen1_US.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen1_text.png">
+                        </div>
+                    </li>
+                    <li class="genuine">
+                        <img src="./public/img/bg2.png" class="bgPic">
+                        <div class="derivatives">
+                            <img src="./public/img/derivatives.png">
+                        </div>
+                        <span class="num">02 - 07</span>
+                        <div>
+                            <img src="./public/img/screen2_no1.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen2_zb.png">
+                            <!-- <p>致力于正版IP内容周边开发合作<br>从概念和剧本阶段开始深度合作<br>从而保证产品的针对性和整体性<br>保证设计、制作、营销的统一性。</p> -->
+                        </div>
+                        <span>vicuc 。</span>
+                    </li>
+                    <li class="idea">
+                        <img src="./public/img/bg3.png" class="bgPic">
+                        <div class="derivatives">
+                            <img src="./public/img/derivatives.png">
+                        </div>
+                        <span class="num">03 - 07</span>
+                        <div>
+                            <img src="./public/img/screen3_no2.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen3_idea.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen3_1.png">
+                        </div>
+                    </li>
+                    <li class="tech">
+                        <img src="./public/img/bg4.png" class="bgPic">
+                        <div class="derivatives">
+                            <img src="./public/img/derivatives.png">
+                        </div>
+                        <span class="num">04 - 07</span>
+                        <div>
+                            <img src="./public/img/screen4_no3.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen4_tech.png">
+                        </div>
+                    </li>
+                    <li class="sell">
+                        <img src="./public/img/bg5.png" class="bgPic">
+                        <div class="derivatives">
+                            <img src="./public/img/derivatives.png">
+                        </div>
+                        <span class="num">05 - 07</span>
+                        <div>
+                            <img src="./public/img/screen5_no4.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen5_text.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen5_ying.png">
+                        </div>
+                        <div>
+                            <img src="./public/img/screen5_xiao.png">
+                        </div>
+                    </li>
+                    <li class="case">
+                        <div class="bgPic">
+                            <img src="./public/img/bg6.png" style="position:absolute;z-index:-1;" class="bgPic">
+                            <div class="derivatives">
+                                <img src="./public/img/derivatives.png">
+                            </div>
+                            <span class="num">06 - 07</span>
+                            <a href="javascript:void(0);" id="bg6_1">
+                                <img src="./public/img/bg6_1.png">
+                                <div>
+                                    <img src="./public/img/screen6_no1.png">
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" id="bg6_2">
+                                <img src="./public/img/bg6_2.png">
+                                <div>
+                                    <img src="./public/img/screen6_no2.png">
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" id="bg6_3">
+                                <img src="./public/img/bg6_3.png">
+                                <div>
+                                    <img src="./public/img/screen6_no3.png">
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" id="bg6_4">
+                                <img src="./public/img/bg6_4.png">
+                                <div>
+                                    <img src="./public/img/screen6_no4.png">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="partners">
+                        <div class="derivatives">
+                            <img src="./public/img/derivatives.png">
+                        </div>
+                        <span class="num">07 - 07</span>
+                        <dl>
+                            <dt><div><img src="./public/img/company-logo_01.gif"></div></dt>
+                            <dd>
+                                <ul>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_04.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_07.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_10.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_13.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_17.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_19.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_21.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_23.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_28.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_29.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_30.gif"></div>
+                                    </li>
+                                    <li>
+                                        <div><img src="./public/img/company-logo_31.gif"></div>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+                <ul id="dots" style="display:none;">
+                    <li class="cur"></li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                </ul>
+                <div id="btns">
+                    <div class="up"><img src="./public/img/btn_up.png" draggable="false"></div>
+                    <div><img src="./public/img/btn_down.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/jquery-3.2.1.min.js"></script>
+    <script src="./public/js/bootstrap.min.js"></script>
+    <script src="./public/js/index.js"></script>
+    <script src="./public/js/jemery1.js"></script>
+    <script>
+        $(function() {
+            $('#headingOne').on('click', function() {
+                window.open('./index.html', '_self');
+            });
+            $('#headingThree').on('click', function() {
+                window.open('./public/news.html', '_self');
+            });
+            $('#headingFour').on('click', function() {
+                window.open('./public/caselist.html', '_self');
+            });
+            $('#headingFive').on('click', function() {
+                window.open('./public/about.html', '_self');
+            });
+            $('#headingSix').on('click', function() {
+                window.open('./public/contact.html', '_self');
+            });
+        })
+    </script>
+</body>
+
+</html>
